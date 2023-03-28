@@ -13,7 +13,7 @@ Patcher to apply modifications to Native Instruments Maschine and Komplete Kontr
 
 
 # How to use NIPAtcher.
-* 1. Press `Copy` button, this will copy all your Maschine Plugins + the Maschine app to a new folder on your Desktop called NIPatcher, it will also create shortcuts to your App and Plugin locations.<br>
+* 1 Press `Copy` button, this will copy all your Maschine Plugins + the Maschine app to a new folder on your Desktop called NIPatcher, it will also create shortcuts to your App and Plugin locations.<br>
 * 2. Select the modifications you want and whether you want them to be applied Maschine 2.app, your plugins or both.<br>
 * 3. Press `Patch` and the modifications will be applied to all files in the NIPatcher folder on the Desktop.<br>
 * 4. (Optional) Press `Codesign` - this is mostly only required for Ableton Live users.<br>
