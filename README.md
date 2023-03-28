@@ -19,6 +19,8 @@ Patcher to apply modifications to Native Instruments Maschine and Komplete Kontr
 4 - (Optional) Press `Codesign` - this is mostly only required for Ableton Live users.<br>
 5 - Open the NIPatcher folder on your Desktop and simply move each modified file into it's respective shortcut and confirm you want to overwrite the unmodified version.<br>
 
+*If you dont codesign i step 4 MacOS will claim the app is damaged, if that happens simpply right-click it and select `Open`.
+
 ### Further Step explanation.
 1 -  Due to Apple's security features writing into `/Library/Audio/Plug-Ins` or `/Library/Application Support/Avid/Audio/Plug-Ins` requires either the user to be prompted for the folders or for me to make an external helper tool (like the one Native Access has). This is way above my current very low skillset so instead of directly modifing the files they are copied to the desktop first, this might not be ideial but gives the user a chance to check if everything is working on the App copy for example.<br>
 4 - Codesign is also required due to Security stuff, since we modify the Plugins and/or application and some DAW's like Ableton Live check for this we need to codesign it s Ableton Live can sleep well at night and not be scared.<br>
