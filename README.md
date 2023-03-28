@@ -9,7 +9,8 @@ Patcher to apply modifications to Native Instruments Maschine and Komplete Kontr
 
 ### Hardware
 - [x] MK3, M+, Studio - Stop button Double tap to bring playhead to the start.
-- [x] JAM - Change patterns without changing Group focus.<details>
+- [x] JAM - Change patterns without changing Group focus.
+- [x] <details>
   <summary>Click me</summary>
   
   ### Heading
@@ -25,6 +26,9 @@ Patcher to apply modifications to Native Instruments Maschine and Komplete Kontr
   }
   ```
 </details>
+
+
+
 
 
 # How to use NIPatcher.
