@@ -12,7 +12,6 @@ Patcher to apply modifications to Native Instruments Maschine and Komplete Kontr
 - [x] JAM - Change patterns without changing Group focus.
 
 
-
 # How to use NIPAtcher.
 1 - Press `Copy to Desktop` button, this will copy all your Maschine Plugins + the Maschine app to a new folder on your Desktop called NIPatcher, it will also create shortcuts to your App and Plugin locations.
 2 - Select the modifications you want and wether you want them to be applied Maschine 2.app, your plugins or both.
