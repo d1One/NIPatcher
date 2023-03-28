@@ -1,5 +1,7 @@
 # NIPatcher
-Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software.
+Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, only supporting Maschine for now.
+
+Tested in Maschine v2.17 only (but should work on most modern recent versions)
 
 ## Features - Maschine
 ### GUI
@@ -37,9 +39,26 @@ Moving the files thru the shortcuts is the fastest way I was able to make it wor
 </details>
 
 
+## Discription of the modifications:
+### Window Size:
+![Window Size Explanation](https://github.com/d1One/NIPatcher/blob/main/Images/Window_Size.png?raw=true)
+Changes the default views under the Maschine Dropdown > View.
+These mods are mostly usefull for the Plugins since their window size is fixed, you can for example:
+- Change the `Small` size and since this is the 'view' that Maschine-Plugin starts with by default you can always have your prefered size when the Plug-In is loaded. 
+- It can also allow you to set a huge size that covers the whole screen as a workaround for MAS-Plug not having a full screen option.
+- Minimum height can be used if for some reason you want to be able to make the Maschine App window very small and only see your Scene, Sections / Song View.
+
+###Font Size:
+This modification exists mainly because the browser has a tiny font, + the fact that it's blurry/pixelated due to Maschine not having Hi-Res/Retina support.
+Button size affects: Tags in the Browser, Pad Names, Pattern names in Ideas view and many other things.
+Label size affets: Mainly the Browser Preset list (But probably many other things too)
+
+As users share results I'll make a more detailed description of font sizes.
+
+Here is an example of both Buttons and Labels with a fontsize of 15 VS the original value of 11:
+
+![Label and Font 15 compared to original Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/Labels%2015.png)
 
 
-  
-  
-  
+
 
