@@ -1,15 +1,14 @@
 # NIPatcher
-Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, only supporting Maschine for now.
-
+Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, **only supporting Maschine for now.**
 Tested in Maschine v2.17 only (but should work on most modern recent versions)
 
-## Features - Maschine
-### GUI
+# Features
+## GUI
 - [x] Change the default GUI window sizes.
 - [x] Change GUI window minimum size (Plugins)
 - [x] Change Font sizes.
 
-### Hardware
+## Hardware
 - [x] MK3, M+, Studio - Stop button Double tap to bring playhead to the start.
 - [x] JAM - Change patterns without changing Group focus.
 
@@ -38,6 +37,8 @@ Codesign is also required due to Security stuff, since we modify the Plugins and
 Moving the files thru the shortcuts is the fastest way I was able to make it work without bothering the user too much, this way it's the MacOS Finder who asks you for permissions when moving the modified files to the Plugins/Application locations.<br>
 </details>
 
+## Why even make NIPatcher.
+To make some improvements to the software since feature requests seem to not achieve anything. Making modifications manually is annoying and hard for the average user, by having an app dedicated to it perhaps more users will be willing to contribute with more modifications and this project can grow.
 
 # Discription of the modifications:
 ## Window Size:
