@@ -5,9 +5,9 @@ Tested with Maschine v2.17 only!
 
 MacOS compatibility:
 - Native Apple Silicon support.
-- macOS 13 Ventura
-- macOS 12 Monterey
-- macOS 11 Big Sur
+- macOS 13 Ventura.
+- macOS 12 Monterey.
+- macOS 11 Big Sur.
 I might add older versions later depending on users engagement.
 
 # Features
