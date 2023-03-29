@@ -20,7 +20,7 @@ I might add older versions later depending on users engagement.
 - [x] MK3, Mikro Mk3 & M+ - Stop button Double tap.
 - [x] JAM - Change patterns without changing focus.
 
-# How to use NIPatcher.
+# How to use NIPatcher:
 * 1 - Press `Copy` button, this will copy all your Maschine Plugins + the Maschine app to a new folder on your Desktop called NIPatcher, it will also create shortcuts to your App and Plugin locations.<br>
 * 2 - Select the modifications you want and whether you want them to be applied Maschine 2.app, your plugins or both.<br>
 * 3 - Press `Patch` and the modifications will be applied to all files in the NIPatcher folder on the Desktop.<br>
@@ -45,7 +45,7 @@ Codesign is also required due to Security stuff, since we modify the Plugins and
 Moving the files thru the shortcuts is the fastest way I was able to make it work without bothering the user too much, this way it's the MacOS Finder who asks you for permissions when moving the modified files to the Plugins/Application locations.<br>
 </details>
 
-## Why even make NIPatcher.
+## Why even make NIPatcher?
 To make some improvements to the software since feature requests seem to not achieve anything. Making modifications manually is annoying and hard for the average user, by having an app dedicated to it perhaps more users will be willing to contribute with more modifications and this project can grow.
 
 # Discription of the modifications:
@@ -67,14 +67,14 @@ As users share results I'll make a more detailed description of font sizes and p
 Here is an example of both Buttons and Labels with a fontsize of 15 VS the original value of 11:
 ![Label and Font 15 compared to original Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/Labels%2015.png)
 
-## Stop Button.
+## Stop Button:
 TL;DR: This mod makes the `Stop` button return the Playhead to the beguining if the project is not playing, basically this means we can get the same beahvior as most DAW's have: double press `Stop` to return to the beguining.
 
 Longer explanation: The Maschine Mk3 introduced a `Stop` button on the HW, prior models did not have this, this was great but the Software never changed. If you look at Maschine's top menu Transport section there is no Stop. So as far as the softare is concerned `Stop` and `Play` **behave exactly the same way when the project is playing**, it makes no difference if you press `Play` again or `Stop`, they both do the same and thus the `Stop` button is completely redundant in this scenario... So, my mod makes `Stop` restart and stop really fast only when the project is playing which results in leaving the playhead in the beginning without affecting the normal Stop behavior. Best of both worlds! 🎉
 
 This is not available for the MAS-Plugin because it does not have access to the transport, the Host/DAW does.
 
-## Jam Focus
+## Jam Focus:
 (untested)
 Changing Patterns with Jam causes Maschine to lose focus on whatever Group you have active if the Pattern yoou changed is in another Group, often this can be undesirable, this mod changes that. This was shared by maschuser1 on the Maschine Forum [here](https://community.native-instruments.com/discussion/5072/tip-changing-patterns-on-the-maschine-jam-without-changing-focus), all credit goes to him/her.
 I dont have a Jam to test this so let me know how it works!
