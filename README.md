@@ -31,9 +31,9 @@ The first time runing the app requires a righ-click and selecting `Open`, MacOS 
 * 4 - (Optional) Press `Codesign` - this is mostly only required for Ableton Live users. ⚠️ This is also a good time to test the MAS-App before actually replacing your files in the next step!<br>
 * 5 - Open the NIPatcher folder on your Desktop and simply move each modified file into its respective shortcut and confirm you want to overwrite the unmodified version.<br>
 
-If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.
-If you break all your Plugins/App just reinstall Maschine from Native Access again.
-Note: Interface/GUI mods can be applied more than once but HW mods cannot.
+If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.<br>
+If you break all your Plugins/App just reinstall Maschine from Native Access again.<br>
+Note: Interface/GUI mods can be applied more than once but HW mods cannot.<br>
 
 #### Why so many steps?
 <details>
