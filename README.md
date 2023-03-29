@@ -67,8 +67,7 @@ This is not available for the Plugin because MAS-Plug does not have access to tr
 
 ## Jam Focus
 (untested)
-Changing Patterns with Jam causes Maschine to lose focus on whatever Group you have active if the Pattern yoou changed is in another Group, often this can be undesirable, this mod changes that. This was shared by maschuser1 on the Maschine Forum [here]([https://pages.github.com/](https://community.native-instruments.com/profile/maschuser1)).
-
+Changing Patterns with Jam causes Maschine to lose focus on whatever Group you have active if the Pattern yoou changed is in another Group, often this can be undesirable, this mod changes that. This was shared by maschuser1 on the Maschine Forum [here](https://community.native-instruments.com/discussion/5072/tip-changing-patterns-on-the-maschine-jam-without-changing-focus), all credit goes to him/her.
 
 
 
