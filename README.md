@@ -2,6 +2,7 @@
 Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, **only supporting Maschine for now.**
 
 Tested with Maschine v2.17 only!
+Will be open-source once I get the hang of Github... Right now I am a noob. 🙈
 
 MacOS compatibility:
 - Native Apple Silicon support.
