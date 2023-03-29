@@ -91,4 +91,4 @@ For now this tab is just experimental, it just checks if all the plugins and app
 # If you want to contribute:
 As of now I am just a newbie with this stuff, I'm not a real developer so until I'm more familiar with github pull requests wont be a thing, I also need the app tested by some users to know it's good, rewrite lots of the code to make it more readable etc... Then I'll put it fully on github as open-source.
 
-So for now anyone that wants to contribute can just right click the Maschine 2.app, select show package contents, mess around and report anything usefull. If I am not a dev and found soe stuff, so can you! :)
+So for now anyone that wants to contribute can just right click the Maschine 2.app, select show package contents, mess around and report anything usefull. If I am not a dev and found some stuff, so can you! :)
