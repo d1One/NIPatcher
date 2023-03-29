@@ -1,6 +1,7 @@
 # NIPatcher
 Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, **only supporting Maschine for now.**
-Tested in Maschine v2.17 only (but should work on most modern recent versions)
+
+Tested with Maschine v2.17 only!
 
 # Features
 ## GUI
