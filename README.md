@@ -42,7 +42,7 @@ Due to Apple's security features writing into `/Library/Audio/Plug-Ins` or `/Lib
 
 <details>
   <summary>4 Codesign</summary>
-Codesign is also required due to Security stuff, since we modify the Plugins and/or application and some DAW's like Ableton Live check for this we need to codesign it s Ableton Live can sleep well at night and not be scared.<br>
+Codesign is also required due to Security stuff, since we modify the Plugins and/or application and some DAW's like Ableton Live check for this we need to codesign them so Ableton Live can sleep well at night and not be scared.<br>
 </details>
 
 <details>
