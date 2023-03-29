@@ -22,6 +22,8 @@ I might add older versions later depending on users engagement.
 - [x] JAM - Change patterns without changing focus.
 
 # How to use NIPatcher:
+The first time runing the app requires a righ-click and selecting `Open`, MacOS will tell you it can't verify the app, thats normal since I really dont want to pay no $100 for the Apple developer certification.
+
 * 1 - Press `Copy` button, this will copy all your Maschine Plugins + the Maschine app to a new folder on your Desktop called NIPatcher, it will also create shortcuts to your App and Plugin locations.<br>
 * 2 - Select the modifications you want and whether you want them to be applied Maschine 2.app, your plugins or both.<br>
 * 3 - Press `Patch` and the modifications will be applied to all files in the NIPatcher folder on the Desktop.<br>
