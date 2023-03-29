@@ -20,7 +20,7 @@ Tested in Maschine v2.17 only (but should work on most modern recent versions)
 * 4 - (Optional) Press `Codesign` - this is mostly only required for Ableton Live users.<br>
 * 5 - Open the NIPatcher folder on your Desktop and simply move each modified file into its respective shortcut and confirm you want to overwrite the unmodified version.<br>
 
-*If you dont codesign I step 4 MacOS will claim the app is damaged, if that happens simply right-click it and select `Open`.
+If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.
 
 #### Why so many steps?
 <details>
@@ -39,8 +39,8 @@ Moving the files thru the shortcuts is the fastest way I was able to make it wor
 </details>
 
 
-## Discription of the modifications:
-### Window Size:
+# Discription of the modifications:
+## Window Size:
 ![Window Size Explanation](https://github.com/d1One/NIPatcher/blob/main/Images/Window_Size.png?raw=true)
 Changes the default views under the Maschine Dropdown > View.
 These mods are mostly usefull for the Plugins since their window size is fixed, you can for example:
@@ -48,16 +48,26 @@ These mods are mostly usefull for the Plugins since their window size is fixed, 
 - It can also allow you to set a huge size that covers the whole screen as a workaround for MAS-Plug not having a full screen option.
 - Minimum height can be used if for some reason you want to be able to make the Maschine App window very small and only see your Scene, Sections / Song View.
 
-###Font Size:
-This modification exists mainly because the browser has a tiny font, + the fact that it's blurry/pixelated due to Maschine not having Hi-Res/Retina support.
-Button size affects: Tags in the Browser, Pad Names, Pattern names in Ideas view and many other things.
-Label size affets: Mainly the Browser Preset list (But probably many other things too)
+## Font Size:
+This modification exists mainly because the browser has a tiny font + the fact that it's blurry/pixelated due to Maschine not having Hi-Res/Retina support.
+- Button size affects: Tags in the Browser, Pad Names, Pattern names in Ideas view and many other things.
+- Label size affets: Mainly the Browser Preset list (But probably many other things too)
 
-As users share results I'll make a more detailed description of font sizes.
+As users share results I'll make a more detailed description of font sizes and possibly add more things to costumize.
 
 Here is an example of both Buttons and Labels with a fontsize of 15 VS the original value of 11:
-
 ![Label and Font 15 compared to original Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/Labels%2015.png)
+
+## Stop Button.
+TL;DR: This mod makes the `Stop` button return the Playhead to the beguining if the project is not playing, basically this means we can get the same beahvior as most DAW's have: double press `Stop` to return to the beguining.
+
+Longer explanation: The Maschine Mk3 introduced a Stop button to the HW, prior models did not have this, that was great but the Software never changed. If you look at Maschine's top menu Transport section there is no Stop. So as far as the softare is concerned `Stop` and `Play` **behave exactly the same way when the project is playing**, it makes no difference if you press `Play` again or `Stop`, they both do the same and thus the `Stop` button is completly redundant in Maschine-SW... So, my mod makes `Stop` restart and stop really fast only when the project is playing which results in leaving the playhead in the beguinin without affecting the normal Stop behavior. Best of both worlds! 🎉
+
+This is not available for the Plugin because MAS-Plug does not have access to transport, the Host/DAW does.
+
+## Jam Focus
+(untested)
+Changing Patterns with Jam causes Maschine to lose focus on whatever Group you have active if the Pattern yoou changed is in another Group, often this can be undesirable, this mod changes that. This was shared by maschuser1 on the Maschine Forum [here]([https://pages.github.com/](https://community.native-instruments.com/profile/maschuser1)).
 
 
 
