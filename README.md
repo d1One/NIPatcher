@@ -33,6 +33,7 @@ The first time runing the app requires a righ-click and selecting `Open`, MacOS 
 
 If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.
 If you break all your Plugins/App just reinstall Maschine from Native Access again.
+Note: Interface/GUI mods can be applied more than once but HW mods cannot.
 
 #### Why so many steps?
 <details>
