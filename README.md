@@ -63,9 +63,9 @@ Here is an example of both Buttons and Labels with a fontsize of 15 VS the origi
 ## Stop Button.
 TL;DR: This mod makes the `Stop` button return the Playhead to the beguining if the project is not playing, basically this means we can get the same beahvior as most DAW's have: double press `Stop` to return to the beguining.
 
-Longer explanation: The Maschine Mk3 introduced a Stop button to the HW, prior models did not have this, that was great but the Software never changed. If you look at Maschine's top menu Transport section there is no Stop. So as far as the softare is concerned `Stop` and `Play` **behave exactly the same way when the project is playing**, it makes no difference if you press `Play` again or `Stop`, they both do the same and thus the `Stop` button is completly redundant in Maschine-SW... So, my mod makes `Stop` restart and stop really fast only when the project is playing which results in leaving the playhead in the beguinin without affecting the normal Stop behavior. Best of both worlds! 🎉
+Longer explanation: The Maschine Mk3 introduced a `Stop` button on the HW, prior models did not have this, this was great but the Software never changed. If you look at Maschine's top menu Transport section there is no Stop. So as far as the softare is concerned `Stop` and `Play` **behave exactly the same way when the project is playing**, it makes no difference if you press `Play` again or `Stop`, they both do the same and thus the `Stop` button is completely redundant in this scenario... So, my mod makes `Stop` restart and stop really fast only when the project is playing which results in leaving the playhead in the beginning without affecting the normal Stop behavior. Best of both worlds! 🎉
 
-This is not available for the Plugin because MAS-Plug does not have access to transport, the Host/DAW does.
+This is not available for the MAS-Plugin because it does not have access to the transport, the Host/DAW does.
 
 ## Jam Focus
 (untested)
