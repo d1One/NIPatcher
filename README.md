@@ -54,11 +54,11 @@ To make some improvements to the software since feature requests seem to not ach
 # Discription of the modifications:
 ## Window Size:
 ![Window Size Explanation](https://github.com/d1One/NIPatcher/blob/main/Images/Window_Size.png?raw=true)
-Changes the default views under the Maschine Dropdown > View.
+Changes the default view presets under the Maschine Dropdown > View.
 These mods are mostly usefull for the Plugins since their window size is fixed, you can for example:
-- Change the `Small` size and since this is the 'view' that Maschine-Plugin starts with by default you can always have your prefered size when the Plug-In is loaded. 
-- It can also allow you to set a huge size that covers the whole screen as a workaround for MAS-Plug not having a full screen option.
+- Change the one of preset sizes to make sure Maschine-Plugin fills your whole screen, usefull for people with 2 monitors for example since MAS-PLug has no Full-Screen option, only the MAS-App does.
 - Minimum height can be used if for some reason you want to be able to make the Maschine App window very small and only see your Scene, Sections / Song View.
+- In the future I'll add more complicated mods like making the browser wider for example.
 
 ## Font Size:
 This modification exists mainly because the browser has a tiny font + the fact that it's blurry/pixelated due to Maschine not having Hi-Res/Retina support.
