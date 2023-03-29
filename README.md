@@ -17,8 +17,8 @@ I might add older versions later depending on users engagement.
 - [x] Change Font sizes.
 
 ## Hardware
-- [x] MK3, M+, Studio - Stop button Double tap to bring playhead to the start.
-- [x] JAM - Change patterns without changing Group focus.
+- [x] MK3, Mikro Mk3 & M+ - Stop button Double tap.
+- [x] JAM - Change patterns without changing focus.
 
 # How to use NIPatcher.
 * 1 - Press `Copy` button, this will copy all your Maschine Plugins + the Maschine app to a new folder on your Desktop called NIPatcher, it will also create shortcuts to your App and Plugin locations.<br>
