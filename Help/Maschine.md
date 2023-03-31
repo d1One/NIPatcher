@@ -1,7 +1,10 @@
-# ![Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/MAS_small.png) NIPatcher Maschine:
+# NIPatcher Maschine:
 
 ## Window Size 
-![Window Size Explanation](https://github.com/d1One/NIPatcher/blob/main/Images/Window_Size.png?raw=true)
+<p align="center">
+<img src="https://github.com/d1One/NIPatcher/blob/main/Images/Window_Size.png?raw=true" width="700">
+</p>
+
 Changes the default view presets under the Maschine Dropdown > View.
 These mods are mostly usefull for the Plugins since their window size is fixed, you can for example:
 - Change the one of preset sizes to make sure Maschine-Plugin fills your whole screen, usefull for people with 2 monitors for example since MAS-PLug has no Full-Screen option, only the MAS-App does.
