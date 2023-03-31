@@ -1,4 +1,4 @@
-# ![Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/MAS_small.png) Maschine patches:
+# ![Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/MAS_small.png) NIPatcher Maschine:
 
 ## Window Size 
 ![Window Size Explanation](https://github.com/d1One/NIPatcher/blob/main/Images/Window_Size.png?raw=true)
