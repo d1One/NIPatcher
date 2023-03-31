@@ -20,6 +20,11 @@ The first time runing the app requires a righ-click and selecting `Open`, MacOS 
 * 4 - (Optional) Press `Codesign` - this is mostly only required for Ableton Live users. ⚠️ This is also a good time to test the MAS/KK App before actually replacing your files in the next step!<br>
 * 5 - Open the NIPatcher folder on your Desktop and simply move each modified file into its respective shortcut and confirm you want to overwrite the unmodified version.<br>
 
+<p align="center">
+<img src="https://github.com/d1One/NIPatcher/blob/main/Images/move%20and%20replace.png?raw=true" width="300">
+</p>
+
+
 If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.<br>
 If you break all your Plugins/App just reinstall Maschine / Komplete Kontrol from Native Access.<br>
 Note: Interface/GUI mods can be applied more than once but HW mods cannot.<br>
