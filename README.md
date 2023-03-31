@@ -24,10 +24,11 @@ The first time runing the app requires a righ-click and selecting `Open`, MacOS 
 <img src="https://github.com/d1One/NIPatcher/blob/main/Images/move%20and%20replace.png?raw=true" width="300">
 </p>
 
-
-If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.<br>
-If you break all your Plugins/App just reinstall Maschine / Komplete Kontrol from Native Access.<br>
-Note: Interface/GUI mods can be applied more than once but HW mods cannot.<br>
+NOTES:
+- Step 1 is a good oportunity to zip the NIPatcher folder on your desktop as a backup.
+- If you don't codesign in Step #4 MacOS will think the app is damaged, if that happens simply right-click it and select `Open`.<br>
+- If you break all your Plugins/App just reinstall Maschine / Komplete Kontrol from Native Access or copy back from the zip backup<br>
+- Interface/GUI mods can be applied more than once but HW mods cannot.<br>
 
 #### Why so many steps?
 <details>
