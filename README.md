@@ -12,16 +12,6 @@ MacOS compatibility:
 
 I might add older versions later depending on users engagement.
 
-# Features
-## GUI / Interface
-- [x] Change the default GUI window sizes.
-- [x] Change GUI window minimum size (Plugins)
-- [x] Change Font sizes.
-
-## Hardware
-- [x] MK3, Mikro Mk3 & M+ - Stop button Double tap.
-- [x] JAM - Change patterns without changing focus.
-
 # How to use NIPatcher:
 The first time runing the app requires a righ-click and selecting `Open`, MacOS will tell you it can't verify the app, thats normal since I really dont want to pay no $100 for the Apple developer certification.
 
