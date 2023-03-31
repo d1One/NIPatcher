@@ -1,4 +1,5 @@
-![NIPatcher Komplete Kontrol](https://github.com/d1One/NIPatcher/blob/main/Images/NIPatcher_KK.png)
+
+<img src="https://github.com/d1One/NIPatcher/blob/main/Images/NIPatcher_KK.png" width="470">
 
 # Komple Kontrol patches:
 
