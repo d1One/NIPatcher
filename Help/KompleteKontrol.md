@@ -1,4 +1,11 @@
+![NIPatcher Komplete Kontrol](https://github.com/d1One/NIPatcher/blob/main/Images/NIPatcher_KK.png)
+
 # Komple Kontrol patches:
+
+### Feature list:
+- Change GUI height size
+- Increase browser width
+- Change font sizes
 
 ## Window Size
 Self explanatory, changes the window height size in pixels.<br>
@@ -18,7 +25,7 @@ Self explanatory, changes Font sizes.<br>
 Note - Incresing the font too much without also increasing the deault height the GUI window can result in not being able to have both Types and Character expanded at the same time in the Browser<br>
 
 ## Wide Browser
-A colletion of several small mods that makes the browser wider enought to allow 4 rows of product thumbnails instead of 3. (add credit later)
+A colletion of several small mods that makes the browser wider enought to allow 4 rows of product thumbnails instead of 3. (Thanks Pete96 for sharing the details of patch)
 
 #### Some examples of several patches applied:
 ![KK Example](https://github.com/d1One/NIPatcher/blob/main/Images/Example_01.png)
