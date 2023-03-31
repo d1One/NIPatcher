@@ -15,7 +15,7 @@ Self explanatory, changes the window height size in pixels.<br>
 `With Plugin`: Changes the height of the KK window when there is a Plugin loaded.<br>
 `Without Plugin`: Changes the height of the KK window when there no a Plugin loaded, if this value is bigger than `With Plugin` then the window will always use the value set here.<br>
 
-- Note - I advise keeping the relationship of originals values, meaning that if you inscrease the pixel value of `With Plugin` by 300 pixels then also add 300 pixels in the `Without Plugin` option.<br>
+- Note - I advise keeping the relationship of originals values, meaning that if you increase the pixel value of `With Plugin` by 300 pixels then also add 300 pixels in the `Without Plugin` option.<br>
 
 ## Fonts
 Self explanatory, changes Font sizes.<br>
