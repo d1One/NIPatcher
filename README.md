@@ -1,8 +1,7 @@
 # NIPatcher
 Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, **only supporting Maschine for now.**
 
-Tested with Maschine v2.17 only!
-Will be open-source once I get the hang of Github... Right now I am a noob. 🙈
+This project will be open-source once I get the hang of Github... Right now I am just a noob. 🙈
 
 MacOS compatibility:
 - Native Apple Silicon support.
@@ -41,7 +40,11 @@ Codesign is also required due to Security stuff, since we modify the Plugins and
 Moving the files thru the shortcuts is the fastest way I was able to make it work without bothering the user too much, this way it's the MacOS Finder who asks you for permissions when moving the modified files to the Plugins/Application locations.<br>
 </details>
 
-## Why even make NIPatcher?
+## Help and details about all modifications
+### [Maschine](https://github.com/d1One/NIPatcher/blob/main/Help/Maschine.md)
+### [Komplete Kontrol](https://github.com/d1One/NIPatcher/blob/main/Help/KompleteKontrol.md)
+
+## Why make NIPatcher?
 To make some improvements to the software since feature requests seem to not achieve anything. Making modifications manually is annoying and hard for the average user, by having an app dedicated to it perhaps more users will be willing to contribute with more modifications and this project can grow.
 
 
