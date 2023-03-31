@@ -1,5 +1,15 @@
 # NIPatcher Maschine:
 
+# Features
+## GUI / Interface
+- [x] Change the default GUI window sizes.
+- [x] Change GUI window minimum size (Plugins)
+- [x] Change Font sizes.
+
+## Hardware
+- [x] MK3, Mikro Mk3 & M+ - Stop button Double tap.
+- [x] JAM - Change patterns without changing focus.
+
 # GUI / Interface
 
 ## Window Size 
