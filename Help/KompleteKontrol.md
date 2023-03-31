@@ -20,6 +20,6 @@ Note - Incresing the font too much without also increasing the deault height the
 ## Wide Browser
 A colletion of several small mods that makes the browser wider enought to allow 4 rows of product thumbnails instead of 3. (add credit later)
 
-### Examples:
+#### Some examples of several patches applied:
 ![KK Example](https://github.com/d1One/NIPatcher/blob/main/Images/Example_01.png)
 ![KK Example 2](https://github.com/d1One/NIPatcher/blob/main/Images/Example_02.png)
