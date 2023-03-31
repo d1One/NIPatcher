@@ -1,7 +1,9 @@
 
+<p align="center">
 <img src="https://github.com/d1One/NIPatcher/blob/main/Images/NIPatcher_KK.png" width="470">
+</p>
 
-# Komple Kontrol patches:
+# Komple Kontrol:
 
 ### Feature list:
 - Change GUI height size
@@ -19,9 +21,8 @@ Note - I advise keeping the relationship of originals values, meanign that if yo
 ## Fonts
 Self explanatory, changes Font sizes.<br>
 <br>
-`Butttos`: Tags, File Stab, Scale/Arp buttons, MIDI Learn Knobs/Buttons, +<br>
-`Labels`: Preset result list, main MIDI learn button, +<br>
-
+`Butttos`: Tags, File Stab, Scale/Arp buttons, MIDI Learn Knobs/Buttons, and probably more stuff<br>
+`Labels`: Preset result list, main MIDI learn button, and probably more stuff<br>
 
 Note - Incresing the font too much without also increasing the deault height the GUI window can result in not being able to have both Types and Character expanded at the same time in the Browser<br>
 
