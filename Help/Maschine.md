@@ -10,7 +10,7 @@
 - [x] MK3, Mikro Mk3 & M+ - Stop button Double tap.
 - [x] JAM - Change patterns without changing focus.
 
-# GUI / Interface ℹ️
+# ℹ️ GUI / Interface
 
 ## Window Size 
 <p align="center">
@@ -33,7 +33,7 @@ As users share results I'll make a more detailed description of font sizes and p
 Here is an example of both Buttons and Labels with a fontsize of 15 VS the original value of 11:
 ![Label and Font 15 compared to original Maschine](https://github.com/d1One/NIPatcher/blob/main/Images/Labels%2015.png)
 
-# Hardware ℹ️
+# ℹ️ Hardware
 
 ## Stop Button
 TL;DR: This mod makes the STOP button return the Playhead to the beguining if the project is not playing, basically this means we can get the same beahvior as most DAW's have: double press STOP to return to the beguining.
