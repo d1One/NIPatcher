@@ -18,6 +18,8 @@ Self explanatory, changes Font sizes.<br>
 Note - Incresing the font too much without also increasing the deault height the GUI window can result in not being able to have both Types and Character expanded at the same time in the Browser<br>
 
 ## Wide Browser
-A colletion of several small mods that makes the browser wider enought to allow rows of 4 product thumbnails. (add credit later)
+A colletion of several small mods that makes the browser wider enought to allow 4 rows of product thumbnails instead of 3. (add credit later)
 
 ### Examples:
+![KK Example](https://github.com/d1One/NIPatcher/blob/main/Images/Example_01.png)
+![KK Example 2](https://github.com/d1One/NIPatcher/blob/main/Images/Example_02.png)
