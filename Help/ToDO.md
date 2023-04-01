@@ -1,6 +1,7 @@
 ## Things to work on:
 
 - [ ] Clean up the code and upload it to Github.
+- [ ] Add: Better examples so people know what the Patcher can do.
 - [ ] Add: Visual feeback after user pressed the `Patch!` button.
 - [ ] Add: A logo replacer for KK so users can tell when app/plugs are Patched.
 - [ ] Add: A help system inside the app.
