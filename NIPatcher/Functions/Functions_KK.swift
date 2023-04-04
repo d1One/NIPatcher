@@ -5,6 +5,54 @@ import AppKit
 import Foundation
 
 // -------------------------------------------------------------
+//                  Logo replace (single file)
+//     /Contents/Resources/skin/pictures/Komplete/KK/Header
+// -------------------------------------------------------------
+
+
+func logoReplaceKK() {
+    let fileManager = FileManager.default
+    
+    // Get the URLs for the images in the project folder
+    guard let mainImageURL = Bundle.main.url(forResource: "HDR_Logo_KP", withExtension: "png") else {
+        return
+    }
+    
+    // Get the URL for the NIPatcher folder on the desktop
+    guard let desktopURL = fileManager.urls(for: .desktopDirectory, in: .userDomainMask).first else {
+        return
+    }
+    let nipatcherURL = desktopURL.appendingPathComponent("NIPatcher")
+    
+    // Define the destination paths for the images
+    let destinationPaths = [
+        "Komplete Kontrol.app/Contents/Resources/skin/pictures/Komplete/KK/Header/",
+        "Komplete Kontrol.vst/Contents/Resources/skin/pictures/Komplete/KK/Header/",
+        "Komplete Kontrol.vst3/Contents/Resources/skin/pictures/Komplete/KK/Header",
+        "Komplete Kontrol.aaxplugin/Contents/Resources/skin/pictures/Komplete/KK/Header/",
+        "Komplete Kontrol.component/Contents/Resources/skin/pictures/Komplete/KK/Header/"
+    ]
+    
+    // Copy the images to their destination
+    for path in destinationPaths {
+        let mainDestinationURL = nipatcherURL.appendingPathComponent(path + "HDR_Logo_KP.png")
+        
+        do {
+            if fileManager.fileExists(atPath: mainDestinationURL.path) {
+                try fileManager.removeItem(at: mainDestinationURL)
+            }
+            
+            try fileManager.copyItem(at: mainImageURL, to: mainDestinationURL)
+            
+        } catch {
+            print("Error: \(error.localizedDescription)")
+        }
+    }
+}
+
+
+
+// -------------------------------------------------------------
 //     Copy all KK plugins and app to a folder on the desktop
 // -------------------------------------------------------------
 
@@ -90,8 +138,8 @@ func createAliasesForFolders_KK() {
 
 let inputAppFiles1_KK = "/Komplete Kontrol.app/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt"
 let inputPlugFiles1_KK = [
-          "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt",
-         "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt",
+    "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt",
+    "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt",
     "/Komplete Kontrol.aaxplugin/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt",
     "/Komplete Kontrol.component/Contents/Resources/skin/stylesheets/Komplete/KK/KPI.txt"
 ]
@@ -147,8 +195,8 @@ func Hack_1_KK(KK_app1: Bool, KK_plug1: Bool, defaultHeight: String) {
 
 let inputAppFiles2_KK = "/Komplete Kontrol.app/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt"
 let inputPlugFiles2_KK = [
-          "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt",
-         "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt",
+    "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt",
+    "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt",
     "/Komplete Kontrol.aaxplugin/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt",
     "/Komplete Kontrol.component/Contents/Resources/skin/stylesheets/Komplete/KK/BrowserPanel.txt"
 ]
@@ -185,8 +233,8 @@ func Hack_2_KK(KK_app1: Bool, KK_plug1: Bool, minHeight: String) {
                 
                 lines[8] = "    min-height:                                 \(minHeight);"
                 
-//                lines[797] = "    width:                                      79;"
-//                lines[802] = "    width:                                     120;"
+                //                lines[797] = "    width:                                      79;"
+                //                lines[802] = "    width:                                     120;"
                 
                 let output = lines.joined(separator: "\n")
                 try output.write(toFile: outputFile, atomically: true, encoding: .utf8)
@@ -206,8 +254,8 @@ func Hack_2_KK(KK_app1: Bool, KK_plug1: Bool, minHeight: String) {
 
 let inputAppFiles3_KK = "/Komplete Kontrol.app/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt"
 let inputPlugFiles3_KK = [
-          "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt",
-         "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt",
+    "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt",
+    "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt",
     "/Komplete Kontrol.aaxplugin/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt",
     "/Komplete Kontrol.component/Contents/Resources/skin/stylesheets/Komplete/Global/Buttons.txt"
 ]
@@ -262,8 +310,8 @@ func Hack_3_KK(KK_app3: Bool, KK_plug3: Bool, fontButtons: String) {
 
 let inputAppFiles4_KK = "/Komplete Kontrol.app/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt"
 let inputPlugFiles4_KK = [
-          "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt",
-         "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt",
+    "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt",
+    "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt",
     "/Komplete Kontrol.aaxplugin/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt",
     "/Komplete Kontrol.component/Contents/Resources/skin/stylesheets/Komplete/Development/Dev_Labels.txt"
 ]
@@ -374,8 +422,8 @@ func FontFixKK1(KK_app3: Bool, KK_plug3: Bool) {
 
 let inputAppFix2_KK = "/Komplete Kontrol.app/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt"
 let inputPlugFix2_KK = [
-          "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt",
-         "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt",
+    "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt",
+    "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt",
     "/Komplete Kontrol.aaxplugin/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt",
     "/Komplete Kontrol.component/Contents/Resources/skin/stylesheets/Komplete/KK/ParameterArea.txt"
 ]
@@ -440,8 +488,8 @@ func FontFixKK2(KK_app3: Bool, KK_plug3: Bool) {
 
 let inputAppFiles5_KK = "/Komplete Kontrol.app/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt"
 let inputPlugFiles5_KK = [
-          "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt",
-         "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt",
+    "/Komplete Kontrol.vst/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt",
+    "/Komplete Kontrol.vst3/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt",
     "/Komplete Kontrol.aaxplugin/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt",
     "/Komplete Kontrol.component/Contents/Resources/skin/stylesheets/Komplete/Definitions/Metrics.txt"
 ]
@@ -515,7 +563,7 @@ func WideBrowserKK_fix(KK_app5: Bool, KK_plug5: Bool) {
             lines[594] = "   width:                                      414;"
             lines[605] = "    width:                                      416;"
             lines[1124] = "    width:                                      370;"//can crash, add a delay?
-
+            
             let output = lines.joined(separator: "\n")
             try output.write(toFile: outputFile, atomically: true, encoding: .utf8)
         }

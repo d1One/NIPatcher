@@ -5,11 +5,11 @@
 import Foundation
 
 // -----------------------------------------------------------------------
-//                     Copy 'branding images' ... lol!
+//                     Logo replace (2 files)
 // extended attributes have to be removed from pngs for it to work xattr -rc .
 // -----------------------------------------------------------------------
 
-func brandingTest() {
+func logoReplaceMAS() {
     let fileManager = FileManager.default
     
     // Get the URLs for the images in the project folder
@@ -55,7 +55,7 @@ func brandingTest() {
         }
     }
 }
-
+ // /Contents/Resources/skin/pictures/Komplete/KK/Header
 
 // -------------------------------------------------------------
 //     Copy all plugins and app to a folder on the desktop

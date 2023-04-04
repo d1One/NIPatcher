@@ -186,6 +186,7 @@ struct KompleteKontrolView: View {
             Hack_5_KK(KK_app5: self.KK_app5, KK_plug5: self.KK_plug5)
             
         }
+        logoReplaceKK()
     }
 }
 

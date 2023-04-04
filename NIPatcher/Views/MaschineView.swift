@@ -4,8 +4,6 @@ import SwiftUI
 
 struct MaschineView: View {
     
-    @State private var TempVar = false//just to test togles, delete later
-    
     // Variables for Maschine Plugin Sizes
     @State private var MminHeight: String = "631"
     @State private var smallWidth: String = "1129"
@@ -17,9 +15,9 @@ struct MaschineView: View {
     @State private var largeHeight: String = "930"
     
     // Bool vars for the toggles
-    @State private var plug1 = true
+    @State private var plug1 = false
     @State private var app1 = false
-    @State private var plug2 = true
+    @State private var plug2 = false
     @State private var app2 = false
     @State private var plug3 = false
     @State private var app3 = false
@@ -96,7 +94,6 @@ struct MaschineView: View {
                         Text("Large").frame(maxWidth: 50)
                         Image(systemName: "arrow.up.and.down").frame(width: 25)
                         TextField("", text: $largeHeight).frame(maxWidth: 40)
-                        //TextField(text: $smallHeight, prompt: Text("631")) { }//fancier prompts but only works on modern MacOS
                     }
                 }
             }
@@ -225,7 +222,6 @@ struct MaschineView: View {
     }
     
     func ApplyPatch() {
-        //createAliasesForFolders()
         if plug1 || app1 {
             Hack_1(inputAppFiles: inputAppFiles, inputPlugFiles: inputPlugFiles, app1: self.app1, plug1: self.plug1, MminHeight: self.MminHeight, smallWidth: self.smallWidth, smallWidthBrowser: self.smallWidthBrowser, smallHeight: self.smallHeight, medWidth: self.medWidth, medHeight: self.medHeight, largeWidth: self.largeWidth, largeHeight: self.largeHeight)
         }
@@ -241,7 +237,7 @@ struct MaschineView: View {
         if plug5 || app5 {
             MH_PatternHelper(app5: self.app5, plug5: self.plug5)
         }
-        brandingTest()
+        logoReplaceMAS()
 //        else {
 //            let alert = NSAlert()
 //            alert.messageText = "Error! 😢"

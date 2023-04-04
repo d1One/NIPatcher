@@ -27,8 +27,8 @@ struct ContentView: View {
                 Label("Info", systemImage: "tray.and.arrow.down.fill")
             }
         }
-        .frame(minWidth: 450, minHeight: 300) // Set default minimum size for all views
-        .padding(10)
+        //.frame(minWidth: 450, minHeight: 300) // Set default minimum size for all views
+        //.padding(10)
     }
 }
 
