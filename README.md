@@ -1,7 +1,7 @@
 # NIPatcher
-Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software, **only supporting Maschine for now.**
+Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software.
 
-This project is open-source but currently halted, working on a possibly re-write for cross compatibility with Windows.
+This project is open-source but currently halted, working on a possibly re-write for cross compatibility with Windows. Only MacOS for now!
 
 MacOS compatibility:
 - Native Apple Silicon support.
