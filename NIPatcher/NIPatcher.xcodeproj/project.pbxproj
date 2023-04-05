@@ -18,7 +18,7 @@
 		D6142FB929D4A0D9005BF77D /* codesign.sh in Resources */ = {isa = PBXBuildFile; fileRef = D6142FAD29D49A63005BF77D /* codesign.sh */; };
 		D6142FC129D4B1E2005BF77D /* HDR_LOGO_MAS_Picto.png in Resources */ = {isa = PBXBuildFile; fileRef = D6142FBF29D4B1E2005BF77D /* HDR_LOGO_MAS_Picto.png */; };
 		D6142FC229D4B1E2005BF77D /* HDR_LOGO_MAS_Main.png in Resources */ = {isa = PBXBuildFile; fileRef = D6142FC029D4B1E2005BF77D /* HDR_LOGO_MAS_Main.png */; };
-		D627C4BF29DCBB3F002EB7D7 /* HDR_Logo_KP.png in Resources */ = {isa = PBXBuildFile; fileRef = D627C4BE29DCBB21002EB7D7 /* HDR_Logo_KP.png */; };
+		D6A9E30329DE2269006FFE78 /* HDR_Logo_KP.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9E30229DE2243006FFE78 /* HDR_Logo_KP.png */; };
 		D6CD78EC29D5F36B006845E3 /* Functions_KK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD78EB29D5F36A006845E3 /* Functions_KK.swift */; };
 		D6CD78EE29D5F48F006845E3 /* Functions_Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD78ED29D5F48F006845E3 /* Functions_Global.swift */; };
 		D6DBD65D29D77B3400AE30CB /* codesignkk.sh in Resources */ = {isa = PBXBuildFile; fileRef = D6CD78F129D649A3006845E3 /* codesignkk.sh */; };
@@ -38,7 +38,7 @@
 		D6142FB229D49B60005BF77D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		D6142FBF29D4B1E2005BF77D /* HDR_LOGO_MAS_Picto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDR_LOGO_MAS_Picto.png; sourceTree = "<group>"; };
 		D6142FC029D4B1E2005BF77D /* HDR_LOGO_MAS_Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDR_LOGO_MAS_Main.png; sourceTree = "<group>"; };
-		D627C4BE29DCBB21002EB7D7 /* HDR_Logo_KP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDR_Logo_KP.png; sourceTree = SOURCE_ROOT; };
+		D6A9E30229DE2243006FFE78 /* HDR_Logo_KP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HDR_Logo_KP.png; path = images/HDR_Logo_KP.png; sourceTree = SOURCE_ROOT; };
 		D6CD78EB29D5F36A006845E3 /* Functions_KK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions_KK.swift; sourceTree = "<group>"; };
 		D6CD78ED29D5F48F006845E3 /* Functions_Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions_Global.swift; sourceTree = "<group>"; };
 		D6CD78F129D649A3006845E3 /* codesignkk.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = codesignkk.sh; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		D6142FC329D4B1FD005BF77D /* images */ = {
 			isa = PBXGroup;
 			children = (
-				D627C4BE29DCBB21002EB7D7 /* HDR_Logo_KP.png */,
+				D6A9E30229DE2243006FFE78 /* HDR_Logo_KP.png */,
 				D6142FC029D4B1E2005BF77D /* HDR_LOGO_MAS_Main.png */,
 				D6142FBF29D4B1E2005BF77D /* HDR_LOGO_MAS_Picto.png */,
 			);
@@ -193,7 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D627C4BF29DCBB3F002EB7D7 /* HDR_Logo_KP.png in Resources */,
+				D6A9E30329DE2269006FFE78 /* HDR_Logo_KP.png in Resources */,
 				D6DBD65D29D77B3400AE30CB /* codesignkk.sh in Resources */,
 				D6142FA429D49932005BF77D /* Preview Assets.xcassets in Resources */,
 				D6142FC129D4B1E2005BF77D /* HDR_LOGO_MAS_Picto.png in Resources */,
@@ -361,7 +361,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = "D-One.NIPatcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,7 +392,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = "D-One.NIPatcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
