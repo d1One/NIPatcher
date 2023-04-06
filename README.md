@@ -12,7 +12,7 @@ MacOS compatibility:
 I might add older versions later depending on users engagement.
 
 ## How to download:
-Press "Releases to the right of this page then press the .zip file.
+Press "Releases" to the right of this page then press the .zip file.
 <p align="center"><img src="https://github.com/d1One/NIPatcher/blob/main/Images/HowToDownload.png" width="500"></p>
 
 
