@@ -11,6 +11,11 @@ MacOS compatibility:
 
 I might add older versions later depending on users engagement.
 
+## How to download:
+Press Releases to the right of this page then press the .zip file.
+<p align="center"><img src="https://github.com/d1One/NIPatcher/blob/main/Images/HowToDownload.png" width="500"></p>
+
+
 # How to use NIPatcher:
 The first time runing the app requires a righ-click and selecting `Open`, MacOS will tell you it can't verify the app, thats normal since I really dont want to pay no $100 for the Apple developer certification.
 
