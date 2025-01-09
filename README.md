@@ -1,4 +1,6 @@
 # NIPatcher
+# Due to low interest this project is now archived, I won't be continuing it, if anyone wants to feel free to do so, reuse any code, etc...
+
 Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software.
 
 This project is open-source but currently halted, working on a possibly re-write for cross compatibility with Windows. Only MacOS for now!
