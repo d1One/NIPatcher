@@ -1,5 +1,5 @@
 # NIPatcher
-# Due to low interest this project is now archived, I won't be continuing it, if anyone wants to feel free to do so, reuse any code, etc...
+## Due to low interest this project is now archived, I won't be continuing it, if anyone wants to do so than feel free, reuse any code, etc...
 
 Patcher to apply modifications to Native Instruments Maschine and Komplete Kontrol software.
 
